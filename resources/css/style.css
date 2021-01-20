@@ -233,3 +233,13 @@ header {
     transform: scale(1);
 
 }
+
+/* -----------------section current cities--------------------------  */
+
+
+.box img {
+    width: 100%;
+}
+.box h3{
+    margin-top: 10px;
+}
