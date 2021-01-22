@@ -233,6 +233,31 @@ header {
     transform: scale(1);
 
 }
+/* ---------------how it works simple 1,2,3---------------- */
+.steps-box img{
+    margin-top: 30px;
+}
+.steps-box:first-child{
+    text-align: right;
+    padding-right: 3%;
+}
+.steps-box:first-child img{
+    width: 40%;
+}
+
+.steps-box:last-child{
+    padding-left: 3%;
+    margin-top: 3%;
+
+}
+
+.works-step .div{
+    border: 5px solid red;
+}
+
+
+/* ---------------how it works simple 1,2,3---------------- */
+
 
 /* -----------------section current cities--------------------------  */
 
@@ -243,3 +268,32 @@ header {
 .box h3{
     margin-top: 10px;
 }
+/* -----------------section current cities--------------------------  */
+
+
+
+
+/* -----------------section FORMS--------------------------  */
+.contact-form{
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],select,
+textarea{
+    width: 100%;
+    padding: 7px;
+    border:1px solid rgb(12, 12, 12);
+}
+textarea{
+    height: 100px;
+}
+
+/*-----------------section FORMS-------------------------- */
+
+/*-----------------section FORMS-------------------------- */
+
+
+/*-----------------section FORMS-------------------------- */

@@ -1,0 +1,13 @@
+/* small tablet to big tablet */
+@media only secreen and (max-width:1023px){
+
+}
+/* small phones and small tablets */
+@media only screen and (max-width: 767px){
+  
+}
+
+/* small phones*/
+@media only screen and(max-width: 480px){
+
+}
