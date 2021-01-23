@@ -185,6 +185,39 @@ header {
     color: orange;
 }
 
+/* ----------------------sticky nav------------------------ */
+.sticky{
+    background-color: rgb(240, 239, 239);
+    
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0px 2px 30px rgb(143, 143, 143);
+    margin: auto auto;
+    vertical-align: auto;
+
+}
+
+.sticky .main-nav li a:visited,
+.sticky .main-nav li a:link {
+color: black;
+margin: 10px 0;
+vertical-align: center;
+}
+
+.sticky .main-nav li a:hover,
+.sticky .main-nav li a:active {
+    color: orange;
+}
+
+.sticky .logo {
+    height: 70px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+
 /* --------------------------icons ----------------------- */
 .icon-big {
     display: block;

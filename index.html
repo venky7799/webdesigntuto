@@ -1,8 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+
+<!-- use html validator https://validator.w3.org/nu/#textarea     =============== -->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content=" omnifood is premium food delivery with low cost and easy to reach with awesome quality">
+
+
     <link rel="stylesheet" href="./vendors/css/normalize.css">
     <link rel="stylesheet" href="./vendors/css/Grid.css">
 <link rel="stylesheet" href="./vendors/css/ionicons.min.css">
@@ -12,20 +20,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
     <title>omnifood</title>
 
+
+    <!--============================== favicons realfaviconsgenerator.net =================== -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./resources/css/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./resources/css/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./resources/css/favicons/favicon-16x16.png">
+    <link rel="manifest" href="./resources/css/favicons/site.webmanifest">
+    <link rel="mask-icon" href="./resources/css/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="./resources/css/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="./resources/css/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
 </head>
 <body>
 
 
 <header>
-    <div class="row">
-        <ul><img class="logo" src="./resources/css/img/logo.png" alt="omnifood logo"></ul>
-        <ul class="main-nav">
-            <li><a href="#">Food delivery</a></li>
-            <li><a href="#">How it works</a></li>
-            <li><a href="#">Our cities</a></li>
-            <li><a href="#">Sign up</a></li>
-        </ul>
-    </div>
+    <nav class="sticky">
+        <div class="row">
+            <img class="logo" src="./resources/css/img/logo.png" alt="omnifood logo">
+            <ul class="main-nav">
+                <li><a href="#">Food delivery</a></li>
+                <li><a href="#">How it works</a></li>
+                <li><a href="#">Our cities</a></li>
+                <li><a href="#">Sign up</a></li>
+            </ul>
+        </div>
+    </nav>
     <div class="hero-text-box">
         <h1>Goodbye junk food.<br> Hello super healthy meals.</h1>
         <a class="btn btn-full" href="#">I'm hungry</a>
@@ -211,8 +234,8 @@
 </section>
 
 <section class="section-form">   
-    <section class="row">
-        <from method="post" action="#" class="contact-form">
+    <div class="row">
+        <form method="post" action="#" class="contact-form">
             <div class="row">
                 <div class="col span-1-of-3">
                     <label for="name">Name</label>
@@ -262,14 +285,31 @@
                     </div>
                 </div>
             </div>
-        </from>
-    </section>
+        </form>
+    </div>
 </section>
 
-<script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js">     </script>
+<script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
 </body>
 <script src="./resources/css/img/style.css"></script>
-</html>
+
+<!-- -------------------------- jsdelivr.com - respond------------ -->
+ <script src="https://cdn.jsdelivr.net/npm/respond@0.9.0/main.min.js"></script>
+<!-- -------------------------- jsdelivr.com - html5shiv------------ -->
+<script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+
+  <!-- -------------------------- jsdelivr.com - selectivizr(to work css3 add use of pseudo class in all browser)------------ -->
+<script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
+                  
+<script src="https://code.jquery.com/jquery-3.5.1.slim.js"
+                  integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM="
+                  crossorigin="anonymous"></script>
+                 
+
+    <script src="./resources/js/script.js"></script>
+
+    </html>
+
 <!-- 
 
 Ready in 20 minutes
